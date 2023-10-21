@@ -2,6 +2,8 @@
 
 ![logo image](./logo/logo.png)
 
+[![Test](https://github.com/shinshin86/fooocus-infotext/actions/workflows/test.yml/badge.svg)](https://github.com/shinshin86/fooocus-infotext/actions/workflows/test.yml)
+
 [Fooocus](https://github.com/lllyasviel/Fooocus)で出力されたログ画面からStable Diffusion web UIなどで利用できるinfotextを抽出するためのChrome拡張機能です。
 
 
