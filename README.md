@@ -6,6 +6,7 @@
 
 [Fooocus](https://github.com/lllyasviel/Fooocus)で出力されたログ画面からStable Diffusion web UIなどで利用できるinfotextを抽出するためのChrome拡張機能です。
 
+Chrome拡張機能のダウンロードは[こちら](https://chrome.google.com/webstore/detail/fooocus-infotext/minaiiiaafadmfjighoghlcanbldllbg)から行えます。
 
 ## Usage
 Chrome拡張機能を有効にした状態でFooocusのログ画面を開くと`生成情報をコピー`ボタンが各画像毎に追加されます。  
