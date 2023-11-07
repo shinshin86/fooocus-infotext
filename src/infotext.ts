@@ -47,7 +47,7 @@ export const convertInfotextObject = (
 export const getInfotext = (input: InfotextObject): string => {
   const lines = [
     input["Prompt"],
-    `Negative Prompt: ${input["Negative prompt"]}`,
+    `Negative prompt: ${input["Negative prompt"]}`,
     `Sampler: ${input["Sampler"]}, Model: ${input["Model"]}, Refiner: ${
       input["Refiner"]
     }, CFG scale: ${input["CFG scale"]}, Seed: ${input["Seed"]}, Size: ${

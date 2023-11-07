@@ -48,7 +48,7 @@ describe("infotext", () => {
     };
 
     const expectedInfotext = `xxxx,(xxxx xxxx:1.1),(xxxx:1.2)
-Negative Prompt: xxxx,(xxxx xxxx:1.1),(xxxx:1.2)
+Negative prompt: xxxx,(xxxx xxxx:1.1),(xxxx:1.2)
 Sampler: xxxxx, Model: xxxxxx, Refiner: Xxxx, CFG scale: 7, Seed: 123456, Size: 123x456`;
 
     expect(getInfotext(input)).toEqual(expectedInfotext);
