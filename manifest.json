@@ -1,7 +1,7 @@
 {
   "name": "fooocus infotext",
   "description": "Fooocusで出力されたログ画面からStable Diffusion web UIなどで利用できるinfotextを抽出するためのChrome拡張機能です。",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 3,
   "content_scripts": [
     {
