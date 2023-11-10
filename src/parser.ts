@@ -72,7 +72,7 @@ export const parseComplexString = (input: string): ParsedData | null => {
       currentKey = key.trim();
       parsedData[currentKey] = rest.join(":").trim();
       return;
-    } else if (currentKey === "Prompt") { // Prompt text
+    } else if (currentKey === "Prompt" || currentKey === "Negative Prompt") { // Prompt or Negative Prompt
       parsedData[currentKey] += "\n" + line;
       return;
     } else if (line.startsWith("Seed:")) {

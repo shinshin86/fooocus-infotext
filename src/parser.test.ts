@@ -8,6 +8,8 @@ describe("parser", () => {
 BREAK
 xxxx,
 Negative Prompt: xxxx,xxxxx,xxx
+BREAK
+xxxx,
 Fooocus V2 Expansion: xxxx,xxxxx,xxx
 Styles: ['xxxxx', 'xxxxx'], Performance: xxxx
 Resolution: (123, 456), Sharpness: 2
@@ -20,7 +22,9 @@ Seed: 123456, LoRA [xxxxxxxxx] weight: 0.1`;
       "Prompt": `xxxx,(xxxx xxxx:1.1),(xxxx:1.2)
 BREAK
 xxxx,`,
-      "Negative Prompt": "xxxx,xxxxx,xxx",
+      "Negative Prompt": `xxxx,xxxxx,xxx
+BREAK
+xxxx,`,
       "Fooocus V2 Expansion": "xxxx,xxxxx,xxx",
       "Styles": ["xxxxx", "xxxxx"],
       "Performance": "xxxx",
