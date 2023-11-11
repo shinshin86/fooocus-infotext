@@ -1,7 +1,7 @@
 {
   "name": "fooocus-infotext",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fooocusで出力されたログ画面からStable Diffusion web UIなどで利用できるinfotextを抽出するためのChrome拡張機能です。",
   "type": "module",
   "author": "shinshin86 <shinshin86npm@gmail.com> (https://github.com/shinshin86)",
